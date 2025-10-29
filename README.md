@@ -1,13 +1,41 @@
-DyslexiaLearner - MERN full project (simplified)
+# DyslexiaLearner 📚
 
-Backend:
-- Folder: backend
-- Run: npm install (inside backend), then npm run dev (requires nodemon) or npm start
-- Create .env with MONGO_URI and JWT_SECRET
+Learning platform for students with dyslexia, ADHD & Autism!!
 
-Frontend:
-- Folder: frontend
-- Run: npx create-react-app was assumed; packages are listed in frontend/package.json
-- Start with: npm start inside frontend (after installing deps)
+## Features
+- 🎵 Audio-supported lessons
+- 🔊 Text-to-speech functionality
+- 👨‍🏫 Teacher dashboard for lesson creation
+- 👨‍🎓 Student progress tracking
+- 👨‍👩‍👧 Parent monitoring dashboard
 
-This ZIP contains minimal working code. Passwords are stored in plain text for simplicity — change to bcrypt in production.
+## Setup Instructions
+
+### Backend
+```bash
+cd backend
+npm install
+npm start
+```
+
+### Frontend
+```bash
+cd frontend
+npm install
+npm start
+```
+
+## Tech Stack
+- **Frontend:** React.js
+- **Backend:** Node.js, Express
+- **Database:** MongoDB
+- **Styling:** Custom CSS
+
+## Team Members
+- Sharwari Kadam
+- Yash Ingale
+- Anushka Hirloskar
+- Janhavi Gurav
+
+## Tagline
+"Learning Made Simple, Success Made Possible" ✨
